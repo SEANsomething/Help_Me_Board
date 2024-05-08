@@ -1,5 +1,8 @@
+import Header from "../../components/Header";
+
 export default function PostEdit() {
 	return <>
-		<h1>Post Edit! 'Hi Hello'</h1>
+		<Header />
+		<h1>PostEdit Page</h1>
 	</>;
 }
