@@ -1,5 +1,5 @@
 export default function PostNew() {
 	return <>
-		<h1>Post New so hard</h1>
+		<h1>Post New so hard Yeah</h1>
 	</>;
 }
