@@ -1,8 +1,8 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import Home from "../pages/home";
-import PostNew from "../pages/posts/index";
-import PostEdit from "../pages/posts/edit";
-import Profile from "../pages/profile";
+import Home from "pages/home";
+import PostNew from "pages/posts/index";
+import PostEdit from "pages/posts/edit";
+import Profile from "pages/profile";
 
 export default function RouterPage() {
 	return <Routes>
