@@ -1,5 +1,7 @@
+import logo from 'assets/images/logo.png';
+
 export default function Header() {
-	return <>
-		<h1>헤더</h1>
-	</>;
+	return <header>
+		<img src={logo} alt="" />
+	</header>;
 }
