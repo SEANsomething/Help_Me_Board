@@ -1,5 +1,5 @@
 export default function PostEdit() {
 	return <>
-		<h1>Post Edit! Hi Hello</h1>
+		<h1>Post Edit! 'Hi Hello'</h1>
 	</>;
 }
