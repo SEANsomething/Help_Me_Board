@@ -1,3 +1,3 @@
-export default function Header() {
+export default function Modal() {
     return <h1>modal</h1>
 }
