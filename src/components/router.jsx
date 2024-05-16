@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, Form } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "pages/home";
 import PostNew from "pages/posts/index";
 import PostEdit from "pages/posts/edit";
