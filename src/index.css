@@ -17,10 +17,57 @@ button {
 }
 
 /* 
-	main: #F5BE98, #FDF2EA
-	sub: #76232A
-	gray: #222222, #424242, #B9B9B9, #BDBDBD, #DFDFDF, #F4F4F4
-*/
+ main: #F5BE98, #FDF2EA
+ sub: #76232A , #EDB491
+ gray: #222222, #424242, #B9B9B9, #BDBDBD, #DFDFDF, #F4F4F4
+ */
+
+.modal {
+  width: 407px;
+  height: 240px;
+  color: #f4f4f4;
+}
+
+.modal__input {
+  color: #fdf2ea;
+}
+
+.modal__input--id{
+  color: #b9b9b9;
+  background-color: #fdf2ea;
+  width: 343px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.modal__input--pw {
+  color: #b9b9b9;
+  background-color: #fdf2ea;
+  width: 343px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.modal__button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal__button--login {
+  color: #b9b9b9;
+  background-color: #fdf2ea;
+  border-radius: 100px;
+  width: 65px;
+  height: 28px;
+}
+
+.modal__button--join {
+  color: #edb491;
+  background-color: #76232a;
+  border-radius: 100px;
+  width: 65px;
+  height: 28px;
+}
 
 /* common */
 .btn-text {
