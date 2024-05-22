@@ -1,6 +1,7 @@
 import Modal from "components/Modal";
 import Header from "components/Header";
 import List from "components/List";
+import Comment from "components/Comment";
 
 
 export default function Home() {
@@ -8,5 +9,6 @@ export default function Home() {
 		<Header />
 		<List />
 		<Modal />
+		<Comment />
 	</>
 }
