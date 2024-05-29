@@ -2,7 +2,7 @@ export default function Modal() {
     return <div className="modal">
         <div className="modal__popup">
 			<div className="modal__input">
-				<input className="modal__input--id" type ="text" placeholder="ID를 입력하세요" />
+				<input className="modal__input--id" type ="text" placeholder="ID를 입력하세요!" />
 				<input className="modal__input--pw" type="text" placeholder="PW를 입력하세요" />
 		    </div>
 			<div className="modal__button">
