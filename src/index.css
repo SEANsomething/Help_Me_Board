@@ -26,10 +26,20 @@ button {
   width: 407px;
   height: 240px;
   color: #f4f4f4;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 247px;
+}
+
+.modal__popup {
+	background-color: #f4f4f4;
+	padding: 32px 32px 32px 32px;
 }
 
 .modal__input {
   color: #fdf2ea;
+  justify-content: center;
+  padding-bottom: 24px;
 }
 
 .modal__input--id{
@@ -38,6 +48,7 @@ button {
   width: 343px;
   height: 50px;
   font-size: 20px;
+  margin-bottom: 24px;
 }
 
 .modal__input--pw {
@@ -50,7 +61,8 @@ button {
 
 .modal__button {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 36px;
 }
 
 .modal__button--login {
