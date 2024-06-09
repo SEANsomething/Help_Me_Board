@@ -9,6 +9,6 @@ export default function Modal() {
 				<button className="button_default">로그인</button>
 				<button className="button_active">회원가입</button>
 			  </div>
-	        </div>
-		   </div>
+			</div>  
+	       </div>
 }
