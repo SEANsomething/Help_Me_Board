@@ -1,8 +1,8 @@
 import Header from "components/Header";
 
-export default function Profile() {
+export default function PostView() {
 	return <>
 		<Header />
-		<h1>Profile Page</h1>
+		<h1>Post View</h1>
 	</>;
 }
