@@ -36,12 +36,32 @@ button {
 	padding: 32px 32px 32px 32px;
 }
 
-.modal__input {
+.input {
   color: #fdf2ea;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-bottom: 24px;
+  gap: 24px;
 }
 
+
+.input_txt {
+  color: #b9b9b9;
+  background-color: #fdf2ea;
+  font-size: 20px;
+  width: 343px;
+  height: 50px;
+  border: none;
+}
+
+/*.input__second {
+  color: #b9b9b9;
+  background-color: #fdf2ea;
+  font-size: 20px;
+  width: 343px;
+  height: 50px;
+}
 .modal__input--id{
   color: #b9b9b9;
   background-color: #fdf2ea;
@@ -58,14 +78,15 @@ button {
   height: 50px;
   font-size: 20px;
 }
-
-.modal__button {
+*/
+.button {
   display: flex;
   justify-content: center;
   gap: 36px;
+  font-size: 12px;
 }
 
-.modal__button--login {
+.button_default {
   color: #b9b9b9;
   background-color: #fdf2ea;
   border-radius: 100px;
@@ -73,7 +94,7 @@ button {
   height: 28px;
 }
 
-.modal__button--join {
+.button_active {
   color: #edb491;
   background-color: #76232a;
   border-radius: 100px;
