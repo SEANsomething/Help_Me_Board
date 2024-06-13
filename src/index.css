@@ -165,3 +165,34 @@ button {
 	background-color: #76232A;
 	color: #F5BE98;
 }
+
+/* basic modal */
+
+.basic-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.basic-modal-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #424242;
+	opacity: 0.5;
+}
+
+.modal__content {
+	z-index: 999;
+	display: flex;
+	width: 600px;
+	min-height: 600px;
+	background-color: #f4f4f4;
+}
