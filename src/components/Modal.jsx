@@ -7,8 +7,18 @@ export default function Modal() {
 		      </div>
 			  <div className="button">
 				<button className="button_default">로그인</button>
-				<button className="button_active">회원가입</button>
+				<button className="button_active"><a href="#">회원가입</a></button>
 			  </div>
 			</div>  
 	       </div>
 }
+<script>
+window.onload = function() { 
+	function offClick(){
+		 document.querySelector('.modal__popup').style.display='none';
+	     document.querySelector('.modal').style.display='none';
+		 }
+		 /*document.querySelector('button_active').addEventListner('click', offClick);   
+};*/
+}
+</script>
