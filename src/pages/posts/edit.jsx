@@ -6,7 +6,7 @@ export default function PostEdit() {
 	return <>
 		<Header />
 		<h1>PostEdit Page</h1>
-		{true && <ModalGyu />}
+		{ture && <ModalGyu />}
 		<PostForm />
 	</>;
 }
