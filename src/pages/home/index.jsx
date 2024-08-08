@@ -11,7 +11,7 @@ export default function Home() {
 		<Header />
 		<List />
 		{/* <Modal /> */}
-		{true && <ModalGyu />}
+		{false && <ModalGyu />}
 		{/* <ModalSean /> */}
 		<Comment />
 	</>
