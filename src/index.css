@@ -146,15 +146,16 @@ textarea {
 	margin: 0 auto;
 	max-width: 840px;
 	padding-top: 40px;
-	gap: 32px;
 	justify-content: center;
 }
+
 
 .list-block__tab {
 	display: flex;
 	flex-wrap: wrap;
 	width: 80%;
 	gap: 4px;
+	margin-bottom: 32px;
 }
 
 .list-block__tab__item {
@@ -247,6 +248,68 @@ textarea {
 	width: 600px;
 	min-height: 600px;
 	background-color: #f4f4f4;
+}
+
+/* ------ 검색창 및 페이지네이션 ------ */
+
+.btm_content {
+	text-align: center;
+}
+
+.search {
+	text-align: center;
+	width: 343px;
+	height: 50px;
+	background-color: #FDF2EA;
+}
+
+input {
+	width: 343px;
+	height: 50px;
+	color: #B9B9B9;
+	font-size: 20px;
+}
+
+.pagenation {
+	text-align: center;
+	width: 100%;
+	padding-top: 16px;
+}
+
+.pagenation-num {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.pagenation-num li{
+	display: inline;
+	text-align: center;
+}
+
+.pagenation-num a {
+	float: left;
+	display: block;
+	font-size: 16px;
+	color: #dfdfdf;
+	padding-right: 24px;
+	cursor: pointer;
+}
+
+.pagenation-num a:hover {
+	color: #76232a;
+}
+
+.pagenation-num a.active {
+	cursor: default;
+	outline: none;
+}
+
+li .first {
+	font-size: 16px;
+	font-weight: 500;
+	color: #76232a;
 }
 
 /* Gyu modalg*/
