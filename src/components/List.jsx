@@ -1,5 +1,6 @@
 
 import shape from 'assets/images/shape.png'
+import search from 'assets/images/search.png';
 
     
 export default function List() {
@@ -66,8 +67,9 @@ export default function List() {
     <div className='btm_content'>
         <div className="search">
             <input id='search-input' type="search" placeholder="검색어를 입력해주세요"/>
-            <img src="assets/images/search.png" alt="search" />
+            <img src={search} alt="search" className='search-icon'/>
             {/* 여기는 찾아봤는데 방법을 모르겠네요ㅜㅜ input창에 아이콘 넣기 */}
+						{/* img src를 상대좌표로 넣을때는 import를 사용하면 됩니다*/}
         </div>
 
         <div className='pagenation'>
