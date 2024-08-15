@@ -256,11 +256,20 @@ textarea {
 	text-align: center;
 }
 
+/* search-icon 의 position이 absolute일때 오작동 하지 않도록 부모 요소에 position relative를 작성해야 합니다. */
 .search {
+	position: relative;
 	text-align: center;
 	width: 343px;
 	height: 50px;
 	background-color: #FDF2EA;
+}
+
+/* 아이콘에 클래스를 생성하고 position을 absolute로 설정 후 인풋 창 안에 삽입합니다. */
+.search-icon {
+	position: absolute;
+	right: 1rem;
+	top: 0.8rem;
 }
 
 input {
