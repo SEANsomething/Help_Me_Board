@@ -259,8 +259,8 @@ textarea {
 .search {
 	text-align: center;
 	width: 343px;
-	height: 50px;
-	background-color: #FDF2EA;
+	height: 50px;	
+	margin-top: 32px;
 }
 
 input {
@@ -268,6 +268,13 @@ input {
 	height: 50px;
 	color: #B9B9B9;
 	font-size: 20px;
+	background-color: #FDF2EA;
+	border-bottom: #e0e0e0;
+	border-width: 0 0 1px;
+}
+
+#search-input {
+	padding-left: 8px;
 }
 
 .pagenation {
@@ -310,6 +317,101 @@ li .first {
 	font-size: 16px;
 	font-weight: 500;
 	color: #76232a;
+}
+
+/* ------- 게시글 작성 ------- */
+
+.posts_typing {
+	width: 654px;
+	height: 310px;
+	background-color: white;
+	border: 1px solid #76232A;
+	border-radius: 8px;
+	margin-top: 32px;
+}
+
+#post-typing:focus {
+	color: #222222;
+}
+
+#post-typing {
+	width: 622px;
+	height: 242px;
+	background-color: white;
+	margin: 16px 16px 16px;
+	padding: 0;
+	font-size: 16px;
+	text-indent: 0%;
+}
+
+.count {
+	width: 622px;
+	height: 12px;
+	display: flex;
+	justify-content: end;
+	font-size: 12px;
+	margin: 0 16px 16px 16px;
+}
+
+.typing_num {
+	color: #222222;
+}
+
+.all_num {
+	color: #bdbdbd;
+}
+
+.list-btm-container {
+	margin-top: 57px;
+}
+
+.list-btm-item {
+	display: flex;
+	width: 654px;
+	height: 45px;
+	align-items: center;
+	background-color: rgba(254,252,250,100%);
+}
+
+.list-btm-item.dark {
+	background-color: rgba(253,242,234,100%);
+}
+
+/* .list-btm-light {
+	width: 654px;
+	height: 45px;
+	background-color: rgba(254,252,250,100%);
+	display: flex;
+	margin-top: 57px;
+}
+
+.list-btm-dark {
+	width: 654px;
+	height: 45px;
+	background-color: rgba(253,242,234,100%);
+	display: flex;
+} */
+
+.list-btm__title {
+	font-size: 20px;
+	padding-left: 16px;
+}
+
+.list-btm__comment {
+	color: #76232A;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 8px;
+}
+
+.list-btm__id {
+	color: #424242;
+	padding-left: 8px;
+}
+
+.list-btm__time {
+	color: #424242;
+	padding-left: 16px;
 }
 
 /* Gyu modalg*/
